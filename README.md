@@ -1,6 +1,6 @@
 # remilama
 
-FIXME
+document review tool
 
 ## Prerequisites
 
