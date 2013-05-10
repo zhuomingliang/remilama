@@ -1,0 +1,32 @@
+body {
+    margin-top: 80px;
+}
+
+.page-container {
+    position: relative;
+    border: 5px solid #000;
+    overflow: hidden;
+    width: 640px;
+    height: 480px;
+    -webkit-user-select: none;
+}
+
+.drag-container {
+    -webkit-transform-origin: left top;
+    -webkit-transform: translateZ(0);
+    -moz-transform-origin: left top;
+    -moz-transform: translateZ(0);
+    -ms-transform-origin: left top;
+    -ms-transform: translateZ(0);
+    -o-transform-origin: left top;
+    -o-transform: translateZ(0);
+    transform-origin: left top;
+    transform: translateZ(0);
+}
+
+.pin {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+}
